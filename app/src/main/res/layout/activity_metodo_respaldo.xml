@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MetodoRespaldoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="78dp"
+        android:text="@string/Id" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="138dp"
+        android:text="@string/Nombre" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="198dp"
+        android:text="@string/Energia" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="258dp"
+        android:text="@string/Proteina" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="318dp"
+        android:text="@string/Catbohidratos" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="378dp"
+        android:text="@string/Grasas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="438dp"
+        android:text="@string/Sodio" />
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="78dp"
+        android:ems="3"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="138dp"
+        android:ems="9"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextEnergia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="198dp"
+        android:ems="9"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextProteina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="9"
+        android:inputType="number"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="258dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextCarbohidratos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="9"
+        android:inputType="number"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="318dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextGrasas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="378dp"
+        android:ems="9"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextSodio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="9"
+        android:inputType="number"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="438dp"
+        />
+
+    <Button
+        android:id="@+id/buttonMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="261dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="78dp"
+        android:onClick="mostrarAlimento"
+        android:text="Mostrar" />
+
+    <Button
+        android:id="@+id/buttonAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="509dp"
+        android:onClick="agregarAlimento"
+        android:text="Agregar" />
+
+    <Button
+        android:id="@+id/buttonModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="569dp"
+        android:onClick="modificarAlimento"
+        android:text="Modificar" />
+
+    <Button
+        android:id="@+id/buttonEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="629dp"
+        android:onClick="eliminarAlimento"
+        android:text="Eliminar" />
+
+
+</RelativeLayout>

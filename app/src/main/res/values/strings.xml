@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Eva3</string>
+    <string name="Id">ID:</string>
+    <string name="Nombre">Nombre:</string>
+    <string name="Energia">Energia(kcal):</string>
+    <string name="Proteina">Proteina(g):</string>
+    <string name="Catbohidratos">Carbohidratos(g):</string>
+    <string name="Grasas">Grasas Totales(g):</string>
+    <string name="Sodio">Sodio(ml):</string>
+    <string name="DescripcionApp">En esta aplicacion encontraras detalles sobre los valores nutricionales
+    de los alimentos registras, tambine podras gestionar la informacion, ya sea modicando los datos, eliminando
+     o agregando nuevos alimentos</string>
+    <string name="Recordatorio">Recuerda que los datos estan basado en cada 100g de dicho alimento.</string>
+    <string name="DescripcionMA">El Metodo de Respaldo es un gestor alternativo para administrar la base de datos.</string>
+
+</resources>

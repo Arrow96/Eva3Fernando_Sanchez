@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="113dp"
+        android:text="Bienvenido" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginTop="193dp"
+        android:text="@string/DescripcionApp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginTop="299dp"
+        android:text="@string/Recordatorio" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginTop="383dp"
+        android:text="Ver Lista de Alimentos"
+        android:onClick="verLista"
+        />
+
+    <Button
+        android:id="@+id/buttonNuevo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginTop="428dp"
+        android:onClick="nuevoAlimento"
+        android:text="Nuevo Alimento" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="539dp"
+        android:text="Metodo de Respaldo:" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="559dp"
+        android:layout_marginEnd="54dp"
+        android:text="@string/DescripcionMA" />
+
+    <Button
+        android:id="@+id/buttonRespaldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginTop="609dp"
+        android:onClick="irRespaldo"
+        android:text="Dirigirse al Metodo de Respaldo" />
+
+</RelativeLayout>
